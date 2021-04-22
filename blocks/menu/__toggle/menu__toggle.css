@@ -1,0 +1,9 @@
+.menu__toggle {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .menu__toggle {
+    display: block;
+  }
+}
