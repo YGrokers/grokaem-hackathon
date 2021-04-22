@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2');
+}
