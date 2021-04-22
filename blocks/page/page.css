@@ -1,0 +1,13 @@
+.page {
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: 'Comfortaa','Arial','sans-serif';
+  font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
