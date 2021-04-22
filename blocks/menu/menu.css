@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #000;
+  max-width: 950px;
+  min-width: 315px;
+  width: 65%;
+}
