@@ -1,12 +1,16 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/font.css");
-
 @import url("../blocks/page/page.css");
-
+@import url("../blocks/page/__header/page__header.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/menu/menu.css");
+@import url("../blocks/menu/__link/menu__link.css");
+@import url("../blocks/menu/__link/_active/menu__link_active.css");
+@import url("../blocks/menu/__toggle/menu__toggle.css");
+@import url("../blocks/menu/__btn/menu__btn.css");
 @import url("../blocks/portfolio/portfolio.css");
 @import url("../blocks/portfolio/__title/protfolio__title.css");
 @import url("../blocks/portfolio/__container/portfolio__container.css");
-
 @import url("../blocks/project/project.css");
 @import url("../blocks/project/__image/project__image.css");
 @import url("../blocks/project/__link/project__link.css");

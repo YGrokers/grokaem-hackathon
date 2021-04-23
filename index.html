@@ -8,20 +8,31 @@
 </head>
 <body class="page">
   <header class="header page__header">
-    <a href="#" target="_self" class="header__logo"></a>
+    <input class="menu__toggle" type="checkbox" id="menu__toggle">
+    <label class="menu__btn" for="menu__toggle">
+      <span class="menu__span"></span>
+    </label>
+    <nav class="menu">
+      <li><a href="#intro" target="_self" class="menu__link menu__link_active">Главное</a></li>
+      <li><a href="#about" target="_self" class="menu__link">Обо мне</a></li>
+      <li><a href="#skills" target="_self" class="menu__link">Мой стэк</a></li>
+      <li><a href="#portfolio" target="_self" class="menu__link">Портфолио</a></li>
+      <li><a href="#faq" target="_self" class="menu__link">FAQ</a></li>
+      <li><a href="#footer__copyright" target="_self" class="menu__link">Контакты</a></li>
+    </nav>
   </header>
   <main class="content">
-    <section class="intro page__intro"></section>
-    <section class="about page__about"></section>
-    <section class="skills page__skils"></section>
-    <section class="portfolio page__portfolio">
+    <section class="intro page__intro" id="intro"></section>
+    <section class="about page__about" id="about"></section>
+    <section class="skills page__skils" id="skills"></section>
+    <section class="portfolio page__portfolio" id="portfolio">
         <p class="portfolio__title">Портфолио</p>
          <div class="portfolio__container"></div>
     </section>
-    <section class="faq page__faq"></section>
+    <section class="faq page__faq" id="faq"></section>
   </main>
-  <footer class="footer page__footer">
-    <p class="footer__copyright">© 2021 ...</p>
+  <footer class="footer page__footer" id="footer">
+    <p class="footer__copyright" id="footer__copyright">© 2021 ...</p>
   </footer>
   <template class="project-template">
       <article class="project">
