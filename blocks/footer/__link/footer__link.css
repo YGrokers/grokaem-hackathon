@@ -1,0 +1,8 @@
+.footer__link {
+  transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.footer__link:hover {
+  transform: scale(1.2);
+  opacity: .5;
+}

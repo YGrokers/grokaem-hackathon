@@ -1,0 +1,8 @@
+.footer__links-zone {
+  padding: 0;
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}

@@ -1,0 +1,18 @@
+.popup__form-wrap {
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.popup__form-wrap:first-of-type {
+  margin-top: 18px;
+}
+
+.popup__form-wrap:nth-of-type(4) {
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 700px) {
+  .popup__form-wrap:first-of-type {
+    margin-top: 34px;
+  }
+}
