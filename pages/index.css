@@ -25,6 +25,18 @@
 @import url("../blocks/about/__fact-container/about__fact-container.css");
 @import url("../blocks/about/__fact/about__fact.css");
 
+@import url("../blocks/skills/skills.css");
+@import url("../blocks/skills/__title/skills__title.css");
+@import url("../blocks/skills/__subtitle/skills__subtitle.css");
+@import url("../blocks/skills/__cards-container/skills__cards-container.css");
+@import url("../blocks/skill-card/skill-card.css");
+@import url("../blocks/skill-card/__image/skill-card__image.css");
+@import url("../blocks/skill-card/__info/skill-card__info.css");
+@import url("../blocks/skill-card/__name/skill-card__name.css");
+@import url("../blocks/skill-card/__rate/skill-card__rate.css");
+@import url("../blocks/skill-card/__rate-star/skill-card__rate-star.css");
+@import url("../blocks/skill-card/__rate-star/_active/skill-card__rate-star_active.css");
+
 @import url("../blocks/portfolio/portfolio.css");
 @import url("../blocks/portfolio/__title/protfolio__title.css");
 @import url("../blocks/portfolio/__container/portfolio__container.css");

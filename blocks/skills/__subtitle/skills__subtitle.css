@@ -1,0 +1,15 @@
+.skills__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin: 0;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 85%;
+}
+
+@media (max-width: 500px) {
+  .skills__subtitle {
+    padding-bottom: 70px;
+  }
+}
