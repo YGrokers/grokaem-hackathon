@@ -1,4 +1,5 @@
 .menu__link {
+  display: inline-block;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
@@ -9,4 +10,11 @@
 
 .menu__link:hover {
   opacity: .5;
+}
+
+@media (max-width: 750px) {
+  .menu__link {
+    font-size: 30px;
+    line-height: 38px;
+  }
 }

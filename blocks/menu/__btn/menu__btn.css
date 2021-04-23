@@ -1,0 +1,49 @@
+.menu__btn {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .menu__btn .menu__span {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 33px;
+    height: 4px;
+    background-color: #090909;
+    transition: all .2s linear .23s;
+  }
+
+  .menu__btn .menu__span:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #090909;
+    content: '';
+    top: -7px;
+    transition: all .2s linear .23s;
+  }
+
+  .menu__btn .menu__span:after{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #090909;
+    content: '';
+    top: 7px;
+    transition: all .2s linear .23s;
+  }
+}
+
+
