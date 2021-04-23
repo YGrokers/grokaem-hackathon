@@ -25,12 +25,22 @@
     <section class="intro page__intro" id="intro"></section>
     <section class="about page__about" id="about"></section>
     <section class="skills page__skils" id="skills"></section>
-    <section class="portfolio page__portfolio" id="portfolio"></section>
+    <section class="portfolio page__portfolio" id="portfolio">
+        <p class="portfolio__title">Портфолио</p>
+         <div class="portfolio__container"></div>
+    </section>
     <section class="faq page__faq" id="faq"></section>
   </main>
   <footer class="footer page__footer" id="footer">
     <p class="footer__copyright" id="footer__copyright">© 2021 ...</p>
   </footer>
-  <template class=""></template>
+  <template class="project-template">
+      <article class="project">
+          <img class="project__image">
+          <a href="" class="project__link"></a>
+      </article>
+  </template>
 </body>
+<!-- TODO Make webpack js loading-->
+<script src="./pages/index.js" type="module"></script>
 </html>

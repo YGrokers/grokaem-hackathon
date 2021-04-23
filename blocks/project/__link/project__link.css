@@ -1,0 +1,10 @@
+.project__link {
+  margin: 50px 0 0;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
