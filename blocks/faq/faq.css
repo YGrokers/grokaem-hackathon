@@ -1,0 +1,17 @@
+.faq {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  padding: 115px 0;
+}
+
+@media screen and (max-width: 415px) {
+
+  .faq {
+    padding: 67px 0;
+  }
+
+}

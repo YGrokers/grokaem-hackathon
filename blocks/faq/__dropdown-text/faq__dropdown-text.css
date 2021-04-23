@@ -1,0 +1,7 @@
+.faq__dropdown-text {
+  max-width: 90%;
+  display: none;
+  margin-top: 14px;
+  margin-bottom: 0;
+  transition: growDown .5s ease;
+}

@@ -1,0 +1,14 @@
+.faq__dropdown-container {
+  max-width: 700px;
+  width: 50%;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 415px) {
+
+  .faq__dropdown-container {
+    width: 80%;
+  }
+  
+}

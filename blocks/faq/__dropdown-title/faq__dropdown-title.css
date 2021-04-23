@@ -1,0 +1,31 @@
+.faq__dropdown-title {
+  line-height: 30px;
+  margin: 0;
+  min-width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq__dropdown-title:hover {
+  color: rgba(84,84,84,.7);
+  transition: color .3s ease-in-out;
+}
+
+.faq__dropdown-title::after {
+  content: '';
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../../../images/faq/popup__close-button.svg);
+  transform: rotate(45deg);
+  transition: transform .5s ease;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px) {
+
+  .faq__title {
+    max-width: 256px;
+  }
+
+}

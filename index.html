@@ -21,7 +21,9 @@
       <li><a href="#footer__copyright" target="_self" class="menu__link">Контакты</a></li>
     </nav>
   </header>
+  
   <main class="content">
+    
     <section class="intro page__intro" id="intro">
       <div class="intro__container">
         <h1 class="intro__name">Имя Фамилия</h1>
@@ -32,6 +34,7 @@
         <img src="./images/avatar.jpg" alt="Моя фотография" class="intro__avatar">
       </div>
     </section>
+    
     <section class="about page__about" id="about">
       <h2 class="about__title">Обо мне</h2>
       <ul class="about__fact-container">
@@ -52,16 +55,73 @@
         </li>
       </ul>
     </section>
-    <section class="skills page__skils" id="skills"></section>
-    <!-- <section class="portfolio page__portfolio" id="portfolio">
+    
+    <section class="skills page__skils" id="skills">
+    </section>
+    
+    <section class="portfolio page__portfolio" id="portfolio">
         <p class="portfolio__title">Портфолио</p>
          <div class="portfolio__container"></div>
-    </section> -->
-    <section class="faq page__faq" id="faq"></section>
+    </section>
+    
+    <section class="faq page__faq" id = "faq">
+      <h2 class="faq__title">Частые вопросы</h2>
+      <ul class="faq__dropdown-container">
+        <li class="faq__dropdown-cell">
+            <h3 class="faq__dropdown-title">Свобода</h3>
+            <p class="faq__dropdown-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae aperiam repellendus quia, quod numquam.</p>
+        </li>
+        <li class="faq__dropdown-cell">
+            <h3 class="faq__dropdown-title">Равенство</h3>
+            <p class="faq__dropdown-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptatibus facere assumenda. Eos, sit animi modi numquam dolorum adipisci! Impedit.</p>
+        </li>
+        <li class="faq__dropdown-cell">
+            <h3 class="faq__dropdown-title">Братство</h3>
+            <p class="faq__dropdown-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eos harum numquam, provident quod magni ratione atque non ea aperiam aliquam perferendis quis veniam, natus at amet quisquam voluptatem suscipit fuga nulla quaerat veritatis consequuntur repellendus! Consequuntur ex accusantium expedita perspiciatis, molestias temporibus optio ratione impedit laudantium reprehenderit possimus qui debitis nemo similique harum suscipit? Saepe, eaque officia corporis tempora blanditiis laborum et unde atque possimus, nam quo nihil, quia quam doloremque! Corporis laboriosam alias molestias tempore, laudantium quasi corrupti consequuntur maxime facere necessitatibus, ut officiis, optio vitae ratione quia excepturi deleniti itaque. Amet provident temporibus, sequi accusamus, quia, autem eaque quis ipsam hic id aliquid ut soluta aspernatur delectus laborum enim vero ea veniam. Quo labore necessitatibus perferendis. Assumenda quas veniam accusamus adipisci molestias omnis, cum harum ipsum pariatur ea temporibus praesentium dolore perspiciatis maiores vel facilis dignissimos autem laudantium animi! Nam impedit ut eum commodi sed nesciunt at est incidunt ipsum blanditiis sequi, excepturi adipisci pariatur consequatur tempora dolor, nobis recusandae veritatis id suscipit. Nam deleniti quae autem dolorem ad voluptatibus libero maxime, nostrum laudantium eius, sapiente, quibusdam aperiam! Amet placeat rerum exercitationem ab quod aperiam architecto illum distinctio nemo ut nulla asperiores voluptatum ipsam, expedita cumque aliquam!</p>
+        </li>
+    </section>
+      
   </main>
+    
   <footer class="footer page__footer" id="footer">
-    <p class="footer__copyright" id="footer__copyright">© 2021 ...</p>
+    <h2 class="footer__title">Контакты</h2>
+    <p class="footer__text">Хотите узнать больше или просто поболтать? Добро пожаловать!</p>
+    <button class="button footer__button">Отправить</button>
+    <ul class="footer__links-zone">
+      <li><a target="_blank" href="#"><img src="./images/footer/lindedin.png" alt="linkedin" class="footer__link"></a></li>
+      <li><a target="_blank" href="#"><img src="./images/footer/instagram.png" alt="instagram" class="footer__link"></a></li>
+      <li><a target="_blank" href="#"><img src="./images/footer/dribble.png" alt="dribble" class="footer__link"></a></li>
+      <li><a target="_blank" href="#"><img src="./images/footer/behance.png" alt="behance" class="footer__link"></a></li>
+    </ul>
+    <p class="footer__text-like">Подписывайтесь на меня в LinkedIn, Instagram, Behance, Dribble</p>
   </footer>
+    
+  <section class="popup popup_type_feedback">
+    <div class="popup__container">
+      <h2 class="popup__title">Ваши контакты для связи</h2>
+      <form class="popup__form popup__form_type_feedback" name="popup-form-feedback" novalidate>
+        <div class="popup__form-wrap">
+          <input class="popup__input" id="title-input" type="text" placeholder="Ваше имя" name="name" minlength="2" maxlength="30" required>
+          <span class="popup__input-error title-input-error"></span>
+        </div>
+        <div class="popup__form-wrap">
+          <input class="popup__input" id="email-input" type="email" placeholder="Ваш email" name="email" required>
+          <span class="popup__input-error email-input-error"></span>
+        </div>
+        <div class="popup__form-wrap">
+          <input class="popup__input" id="tel-input" type="tel" placeholder="Номер телефона (не обязательно)" name="tel">
+          <span class="popup__input-error tel-input-error"></span>
+        </div>
+        <div class="popup__form-wrap">
+          <textarea class="popup__input" id="text-input" type="text" placeholder="Комментарий (не обязательно)" name="text" maxlength="5000"></textarea>
+          <span class="popup__input-error text-input-error"></span>
+        </div>
+        <button class="button popup__save-button popup__save-button_type_feedback" type="submit"><span class="popup__button-span">Отправить</span></button>
+      </form>
+      <button class="popup__close-button" type="button"></button>
+    </div>
+  </section>
+
   <template class="project-template">
       <article class="project">
           <img class="project__image">
@@ -69,6 +129,6 @@
       </article>
   </template>
 </body>
-<!-- TODO Make webpack js loading-->
+
 <script src="./pages/index.js" type="module"></script>
 </html>
