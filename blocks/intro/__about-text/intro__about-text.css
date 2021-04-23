@@ -1,0 +1,14 @@
+.intro__about-text {
+  margin: 0;
+  text-align: end;
+  font-size: 22px;
+  line-height: 28px;
+  color: #070707;
+  font-weight: 500;
+}
+
+@media (max-width: 750px) {
+  .intro__about-text {
+    text-align: start;
+  }
+}

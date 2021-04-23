@@ -8,17 +8,63 @@
 </head>
 <body class="page">
   <header class="header page__header">
-    <a href="#" target="_self" class="header__logo"></a>
+    <input class="menu__toggle" type="checkbox" id="menu__toggle">
+    <label class="menu__btn" for="menu__toggle">
+      <span class="menu__span"></span>
+    </label>
+    <nav class="menu">
+      <li><a href="#intro" target="_self" class="menu__link menu__link_active">Главное</a></li>
+      <li><a href="#about" target="_self" class="menu__link">Обо мне</a></li>
+      <li><a href="#skills" target="_self" class="menu__link">Мой стэк</a></li>
+      <li><a href="#portfolio" target="_self" class="menu__link">Портфолио</a></li>
+      <li><a href="#faq" target="_self" class="menu__link">FAQ</a></li>
+      <li><a href="#footer__copyright" target="_self" class="menu__link">Контакты</a></li>
+    </nav>
   </header>
+  
   <main class="content">
-    <section class="intro page__intro"></section>
-    <section class="about page__about"></section>
-    <section class="skills page__skils"></section>
-    <!-- <section class="portfolio page__portfolio">
+    
+    <section class="intro page__intro" id="intro">
+      <div class="intro__container">
+        <h1 class="intro__name">Имя Фамилия</h1>
+        <div class="intro__about">
+          <p class="intro__about-text">Front-end developer</p>
+          <p class="intro__about-text">26 лет, Город</p>
+        </div>
+        <img src="./images/avatar.jpg" alt="Моя фотография" class="intro__avatar">
+      </div>
+    </section>
+    
+    <section class="about page__about" id="about">
+      <h2 class="about__title">Обо мне</h2>
+      <ul class="about__fact-container">
+        <li>
+          <p class="about__fact">
+            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.
+          </p>
+        </li>
+        <li>
+          <p class="about__fact">
+            I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
+          </p>
+        </li>
+        <li>
+          <p class="about__fact">
+            Ready to implement excellent projects with wonderful people.
+          </p>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="skills page__skils" id="skills">
+    </section>
+    
+    <section class="portfolio page__portfolio" id="portfolio">
         <p class="portfolio__title">Портфолио</p>
          <div class="portfolio__container"></div>
-    </section> -->
-    <section class="faq page__faq">
+    </section>
+    
+    <section class="faq page__faq" id = "faq">
       <h2 class="faq__title">Частые вопросы</h2>
       <ul class="faq__dropdown-container">
         <li class="faq__dropdown-cell">
@@ -34,8 +80,10 @@
             <p class="faq__dropdown-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eos harum numquam, provident quod magni ratione atque non ea aperiam aliquam perferendis quis veniam, natus at amet quisquam voluptatem suscipit fuga nulla quaerat veritatis consequuntur repellendus! Consequuntur ex accusantium expedita perspiciatis, molestias temporibus optio ratione impedit laudantium reprehenderit possimus qui debitis nemo similique harum suscipit? Saepe, eaque officia corporis tempora blanditiis laborum et unde atque possimus, nam quo nihil, quia quam doloremque! Corporis laboriosam alias molestias tempore, laudantium quasi corrupti consequuntur maxime facere necessitatibus, ut officiis, optio vitae ratione quia excepturi deleniti itaque. Amet provident temporibus, sequi accusamus, quia, autem eaque quis ipsam hic id aliquid ut soluta aspernatur delectus laborum enim vero ea veniam. Quo labore necessitatibus perferendis. Assumenda quas veniam accusamus adipisci molestias omnis, cum harum ipsum pariatur ea temporibus praesentium dolore perspiciatis maiores vel facilis dignissimos autem laudantium animi! Nam impedit ut eum commodi sed nesciunt at est incidunt ipsum blanditiis sequi, excepturi adipisci pariatur consequatur tempora dolor, nobis recusandae veritatis id suscipit. Nam deleniti quae autem dolorem ad voluptatibus libero maxime, nostrum laudantium eius, sapiente, quibusdam aperiam! Amet placeat rerum exercitationem ab quod aperiam architecto illum distinctio nemo ut nulla asperiores voluptatum ipsam, expedita cumque aliquam!</p>
         </li>
     </section>
+      
   </main>
-  <footer class="footer page__footer">
+    
+  <footer class="footer page__footer" id="footer">
     <h2 class="footer__title">Контакты</h2>
     <p class="footer__text">Хотите узнать больше или просто поболтать? Добро пожаловать!</p>
     <button class="button footer__button">Отправить</button>
@@ -47,7 +95,7 @@
     </ul>
     <p class="footer__text-like">Подписывайтесь на меня в LinkedIn, Instagram, Behance, Dribble</p>
   </footer>
-
+    
   <section class="popup popup_type_feedback">
     <div class="popup__container">
       <h2 class="popup__title">Ваши контакты для связи</h2>

@@ -1,0 +1,22 @@
+.menu__link {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color:#828282;
+  transition: opacity .3s ease-in;
+  text-decoration: none;
+  position: relative;
+  z-index: 3;
+}
+
+.menu__link:hover {
+  opacity: .5;
+}
+
+@media (max-width: 750px) {
+  .menu__link {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}

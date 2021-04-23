@@ -1,0 +1,32 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 32px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  max-width: 950px;
+  min-width: 315px;
+  width: 65%;
+}
+
+@media (max-width: 1000px) {
+  .menu {
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    visibility: hidden;
+    right: -100%;
+    transition-duration: .5s;
+    background-color: #fff;
+    padding: 70px 26px;
+    border-bottom: 0;
+  }
+}
