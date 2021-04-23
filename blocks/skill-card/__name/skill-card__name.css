@@ -1,0 +1,12 @@
+.skill-card__name {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 40px;
+  margin: 0;
+  width: 100%;
+}

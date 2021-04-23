@@ -1,0 +1,26 @@
+.skills__cards-container {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 170px);
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 0 110px;
+  width: 85%;
+  gap: 80px 50px;
+  width: 65%;
+  max-width: 829px;
+  min-width: 315px;
+}
+@media(max-width: 1000px) {
+  .skills__cards-container {
+    width: 85%;
+  }
+}
+
+@media(max-width: 500px) {
+  .skills__cards-container {
+    grid-template-columns: 170px;
+    justify-content: center;
+  }
+}
+
