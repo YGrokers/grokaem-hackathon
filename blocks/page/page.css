@@ -1,4 +1,4 @@
-.html, body, div, span, applet, object, iframe,
+/* .html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -11,7 +11,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, main {
   border: 1px solid red;
-}
+} */
 .page {
   min-width: 320px;
   margin: 0 auto;

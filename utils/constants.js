@@ -1,12 +1,25 @@
 export const projects = [
   {
-    img: "https://lh3.googleusercontent.com/Gb_CHcEPOOC5Pw4VysqhcGh5ojiDsNo-HgOK7bmDT9mz4-zZWd3JReulJg4uielavYCoWi1ME77YmEJAICtnC4A5_Q=w640-h400-e365-rj-sc0x00ffffff",
-    link: "https://lh3.googleusercontent.com/Gb_CHcEPOOC5Pw4VysqhcGh5ojiDsNo-HgOK7bmDT9mz4-zZWd3JReulJg4uielavYCoWi1ME77YmEJAICtnC4A5_Q=w640-h400-e365-rj-sc0x00ffffff",
-    linkTitle: "Super Project",
+    img: "../images/portfolio/online_fashion.png",
+    link: "https://github.com/",
+    linkTitle: "Online fashion store - GitHub",
+    descripton: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est fuga voluptatibus eaque quod excepturi quisquam harum, repellat ratione totam.",
   },
   {
-    img: "https://lh3.googleusercontent.com/Gb_CHcEPOOC5Pw4VysqhcGh5ojiDsNo-HgOK7bmDT9mz4-zZWd3JReulJg4uielavYCoWi1ME77YmEJAICtnC4A5_Q=w640-h400-e365-rj-sc0x00ffffff",
-    link: "https://lh3.googleusercontent.com/Gb_CHcEPOOC5Pw4VysqhcGh5ojiDsNo-HgOK7bmDT9mz4-zZWd3JReulJg4uielavYCoWi1ME77YmEJAICtnC4A5_Q=w640-h400-e365-rj-sc0x00ffffff",
-    linkTitle: "Super Project",
+    img: "../images/portfolio/reebok_web.png",
+    link: "https://www.reebok.ru/",
+    linkTitle: "Reebook - Homepage",
+    descripton: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est fuga voluptatibus eaque quod excepturi quisquam harum, repellat ratione totam.",
   },
 ];
+
+export const validationConfig = {
+  formSelector: ".popup__form",
+  inputSelector: ".popup__input",
+  submitButtonSelector: ".popup__save-button",
+  inactiveButtonClass: "popup__save-button_inactive",
+  inputErrorClass: "popup__input_type_error",
+  errorClass: "popup__input-error_active",
+};
+
+export const containerElement = document.querySelector('.portfolio__container');

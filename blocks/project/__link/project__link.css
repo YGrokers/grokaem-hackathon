@@ -1,10 +1,11 @@
 .project__link {
-  margin: 50px 0 0;
-
   font-size: 18px;
   font-weight: 500;
   line-height: 22px;
-  text-align: center;
-  text-decoration-line: underline;
   color: #070707;
+}
+
+.project__link:hover {
+  color: rgba(84,84,84,.7);
+  transition: color .3s ease-in-out;
 }

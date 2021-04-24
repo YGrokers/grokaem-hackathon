@@ -1,31 +1,35 @@
-// TODO webpack import './index.css';
-
-// import Portfolio from "../components/Portfolio.js";
-// import Project from "../components/Project.js";
-// import {projects} from "../utils/constants.js";
+import {projects, validationConfig, containerElement} from "../utils/constants.js";
+import Section from "../components/Section.js";
+import Project from "../components/Project.js";
 import Dropdown from "../components/Dropdown.js";
-import FormValidator from "../components/FormValidator.js"
-import PopupWithForm from '../components/PopupWithForm.js'
+import FormValidator from "../components/FormValidator.js";
+import PopupWithForm from '../components/PopupWithForm.js';
+import PopupWithImage from '../components/PopupWithImage.js';
 
-// const portfolio = new Portfolio({selector: '.portfolio'});
-// projects.forEach(projectData => {
-//   const project = new Project({templateSelector: ".project-template", ...projectData});
-//   portfolio.addProject(project.generateElement());
-// })
+const createProjectEl = (projectData) => {
+  return new Project(projectData, ".project-template", (data) => {
+    popupImage.open(data);
+  }).generateElement();
+}
 
-const validationConfig = {
-  formSelector: ".popup__form",
-  inputSelector: ".popup__input",
-  submitButtonSelector: ".popup__save-button",
-  inactiveButtonClass: "popup__save-button_inactive",
-  inputErrorClass: "popup__input_type_error",
-  errorClass: "popup__input-error_active",
-};
-// в константу
+const portfolio = new Section({
+  itemsArr: projects,
+  renderer: projectData => {
+    createProjectEl(projectData)
+    portfolio.addProject(createProjectEl(projectData));
+  }
+}, containerElement
+);
+portfolio.renderItems();
 
-
-const dropdown = new Dropdown('.faq__dropdown-cell');
+const dropdown = new Dropdown({
+  dropdownSelector: '.dropdown__cell',
+  activeSelector: 'dropdown__cell_active'
+});
 dropdown.setEventListeners();
+
+const popupImage = new PopupWithImage(".popup_type_image");
+popupImage.setEventListeners();
 
 const popupFeedback = new PopupWithForm({
   popupSelector: ".popup_type_feedback",
@@ -42,9 +46,9 @@ const formValidator = new FormValidator(
 );
 formValidator.enableValidation();
 
-const addButtonMesto = document.querySelector('.footer__button')
+const buttonSendFeedback = document.querySelector('.footer__button')
 
-addButtonMesto.addEventListener("click", () => {
+buttonSendFeedback.addEventListener("click", () => {
   popupFeedback.open();
   formValidator.checkButtonStateOpenPopup();
 });

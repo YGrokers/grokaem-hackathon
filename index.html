@@ -162,19 +162,19 @@
 
     <section class="faq page__faq" id = "faq">
       <h2 class="faq__title">Частые вопросы</h2>
-      <ul class="faq__dropdown-container">
-        <li class="faq__dropdown-cell">
-            <h3 class="faq__dropdown-title">Сколько мне будет стоит заказать разработку сайта?<div class="faq__dropdown-icon"></div></h3>
-            <p class="faq__dropdown-text">Lorem ipsum, OVER 100500$ dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae aperiam repellendus quia, quod numquam.</p>
+      <ul class="dropdown">
+        <li class="dropdown__cell dropdown__cell_type_faq">
+            <h3 class="dropdown__title">Сколько мне будет стоит заказать разработку сайта?<div class="dropdown__icon"></div></h3>
+            <p class="dropdown__text">Lorem ipsum, OVER 100500$ dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae aperiam repellendus quia, quod numquam.</p>
         </li>
-        <li class="faq__dropdown-cell">
-            <h3 class="faq__dropdown-title">Как будет выстроена работа, если я закажу сайт?<div class="faq__dropdown-icon"></div></h3>
-            <p class="faq__dropdown-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, ipsum. Ad ipsa quis alias quam, debitis cupiditate reiciendis illo, itaque suscipit, eius optio voluptatibus maiores quaerat labore tempore error maxime voluptatem dolorum. Tenetur error, et asperiores possimus delectus corrupti officia eligendi. Architecto nobis, unde id non recusandae molestiae libero temporibus!
+        <li class="dropdown__cell">
+            <h3 class="dropdown__title">Как будет выстроена наша работа, если я закажу сайт?<div class="dropdown__icon"></div></h3>
+            <p class="dropdown__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, ipsum. Ad ipsa quis alias quam, debitis cupiditate reiciendis illo, itaque suscipit, eius optio voluptatibus maiores quaerat labore tempore error maxime voluptatem dolorum. Tenetur error, et asperiores possimus delectus corrupti officia eligendi. Architecto nobis, unde id non recusandae molestiae libero temporibus!
             </p>
         </li>
-        <li class="faq__dropdown-cell">
-            <h3 class="faq__dropdown-title">Я работодатель, хочу пригласить на собеседование.<div class="faq__dropdown-icon"></div></h3>
-            <p class="faq__dropdown-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est fuga voluptatibus eaque quod excepturi quisquam harum, repellat ratione totam.</p>
+        <li class="dropdown__cell">
+            <h3 class="dropdown__title">Я работодатель и хочу предложить офер.<div class="dropdown__icon"></div></h3>
+            <p class="dropdown__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est fuga voluptatibus eaque quod excepturi quisquam harum, repellat ratione totam.</p>
         </li>
     </section>
 
@@ -219,11 +219,29 @@
     </div>
   </section>
 
+  <section class="popup popup_style_opacity popup_type_image">
+    <div class="popup__wrap">
+      <figure class="popup__figure">
+        <img src="#" alt="#" class="popup__image">
+        <figcaption class="popup__caption"></figcaption>
+      </figure>
+      <button class="popup__close-button" type="button"></button>
+    </div>
+  </section>
+
   <template class="project-template">
       <article class="project">
-          <img class="project__image">
-          <a href="" class="project__link"></a>
-      </article>
+        <figcaption class="project__figure">
+          <div class="project__image-background"><img class="project__image" alt="#"></div>
+          <figcaption class="poject__caption"><a target="_blank" href="#" class="project__link"></a></figcaption>
+        </figure>
+        <div class="dropdown">
+          <div class="dropdown__cell">
+            <h2 class="dropdown__title dropdown__title_type_project">О проекте<div class="dropdown__icon"></div></h2>
+            <p class="dropdown__text"></p>
+          </div>
+        </div>
+    </article>
   </template>
 </body>
 

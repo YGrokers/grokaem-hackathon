@@ -1,4 +1,4 @@
-.faq__dropdown-title {
+.dropdown__title {
   line-height: 30px;
   margin: 0;
   min-width: 95%;
@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.faq__dropdown-title:hover {
+.dropdown__title:hover {
   color: rgba(84,84,84,.7);
   transition: color .3s ease-in-out;
 }
