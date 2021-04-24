@@ -2,7 +2,7 @@
 
 ------
 
-[Ссылка на проект](https://shevviakov.github.io/grokaem-hackathon/)
+[Ссылка на проект](https://ygrokers.github.io/grokaem-hackathon/)
 
 ------
 
