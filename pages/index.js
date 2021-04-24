@@ -2,10 +2,11 @@
 
 // import Portfolio from "../components/Portfolio.js";
 // import Project from "../components/Project.js";
-// import {projects} from "../utils/constants.js";
+import {projects, menuBtn} from "../utils/constants.js";
 import Dropdown from "../components/Dropdown.js";
 import FormValidator from "../components/FormValidator.js"
 import PopupWithForm from '../components/PopupWithForm.js'
+import Menu from '../components/Menu.js'
 
 // const portfolio = new Portfolio({selector: '.portfolio'});
 // projects.forEach(projectData => {
@@ -48,3 +49,10 @@ addButtonMesto.addEventListener("click", () => {
   popupFeedback.open();
   formValidator.checkButtonStateOpenPopup();
 });
+
+const menu = new Menu ({
+  menuSelector: '.menu__container',
+  openSelector: 'menu__container_active'
+})
+
+menuBtn.addEventListener('click', () => {menu.open()})
