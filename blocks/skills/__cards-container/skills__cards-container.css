@@ -9,10 +9,18 @@
   width: 65%;
   max-width: 829px;
   min-width: 315px;
+  padding: 0;
 }
 @media(max-width: 1000px) {
   .skills__cards-container {
     width: 85%;
+  }
+}
+
+@media(max-width: 750px) {
+  .skills__cards-container {
+    grid-template-columns: repeat(2, 170px);
+    justify-content: space-evenly;
   }
 }
 
