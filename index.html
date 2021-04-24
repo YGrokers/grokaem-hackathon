@@ -8,7 +8,7 @@
 </head>
 <body class="page">
   <header class="header page__header">
-    <input class="menu__btn" type="button">
+    <button class="menu__btn" type="button"></button>
     <div class="menu__container">
       <nav class="menu">
         <li class="menu__link-container"><a href="#intro" target="_self" class="menu__link menu__link_active">Главное</a></li>
@@ -39,17 +39,17 @@
       <ul class="about__fact-container">
         <li>
           <p class="about__fact">
-            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.
+            Привет, я Имя - Front-end разработчик из Города. Интересуюсь web-технологиями и всем, что с ними связано.
           </p>
         </li>
         <li>
           <p class="about__fact">
-            I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
+            Я обучаюсь на курсе «Веб-разработчик» в ЯПрактикум.
           </p>
         </li>
         <li>
           <p class="about__fact">
-            Ready to implement excellent projects with wonderful people.
+            Готов реализовывать проекты в хорошей команде.
           </p>
         </li>
       </ul>
@@ -175,6 +175,7 @@
             <h3 class="dropdown__title">Я работодатель и хочу предложить офер.<div class="dropdown__icon"></div></h3>
             <p class="dropdown__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est fuga voluptatibus eaque quod excepturi quisquam harum, repellat ratione totam.</p>
         </li>
+      </ul>
     </section>
 
   </main>
@@ -209,7 +210,7 @@
           <span class="popup__input-error tel-input-error"></span>
         </div>
         <div class="popup__form-wrap">
-          <textarea class="popup__input" id="text-input" type="text" placeholder="Комментарий (не обязательно)" name="text" maxlength="5000"></textarea>
+          <textarea class="popup__input" id="text-input" placeholder="Комментарий (не обязательно)" name="text" maxlength="5000"></textarea>
           <span class="popup__input-error text-input-error"></span>
         </div>
         <button class="button popup__save-button popup__save-button_type_feedback" type="submit"><span class="popup__button-span">Отправить</span></button>
@@ -230,7 +231,7 @@
 
   <template class="project-template">
       <article class="project">
-        <figcaption class="project__figure">
+        <figure class="project__figure">
           <div class="project__image-background"><img class="project__image" alt="#"></div>
           <figcaption class="poject__caption"><a target="_blank" href="#" class="project__link"></a></figcaption>
         </figure>
@@ -240,9 +241,8 @@
             <p class="dropdown__text"></p>
           </div>
         </div>
-    </article>
+      </article>
   </template>
 </body>
-
 <script src="./pages/index.js" type="module"></script>
 </html>

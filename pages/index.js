@@ -82,7 +82,7 @@ function changeMenuWithScroll() {
   } else if (scrollY < faq  - 20 ) {
     menu.clearMenuLinks(3)
     links[3].classList.add('menu__link_active')
-  } else if (scrollY < footer - 50) {
+  } else if (scrollY < footer - 200) {
     menu.clearMenuLinks(4)
     links[4].classList.add('menu__link_active')
   } else{
