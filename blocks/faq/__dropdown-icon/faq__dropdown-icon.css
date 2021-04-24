@@ -1,0 +1,9 @@
+.faq__dropdown-icon {
+  height: 30px;
+  min-width: 30px;
+  background-image: url(../../../images/faq/popup__close-button.svg);
+  transform: rotate(45deg);
+  transition: transform .5s ease;
+  background-repeat: no-repeat;
+  z-index: 0;
+}

@@ -1,4 +1,4 @@
-.faq__dropdown-cell_active .faq__dropdown-title::after {
+.faq__dropdown-cell_active .faq__dropdown-icon {
   transform: rotate(180deg);
   transition: transform .5s ease;
 }

@@ -5,3 +5,11 @@
   text-align: center;
   margin: 0 0 20px;
 }
+
+@media screen and (max-width: 650px) {
+
+  .faq__title {
+    max-width: 256px;
+  }
+
+}
