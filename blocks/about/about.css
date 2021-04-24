@@ -5,5 +5,12 @@
   align-items: center;
   justify-content: flex-start;
   background-color: #F6F6F6;
+  padding-top: 110px
 }
 
+
+@media (max-width: 750px) {
+  .about {
+    padding-top: 80px
+  }
+}
