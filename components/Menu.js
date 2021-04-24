@@ -8,7 +8,7 @@ export default class Menu {
 
   _handleClickClose(evt) {
     console.log(evt.target)
-    if (evt.target.classList.contains('menu__link')|| evt.target.classList.contains('menu__container') || evt.target.classList.contains('menu')) {
+    if (evt.target.classList.contains('menu__link')|| evt.target.classList.contains('menu__link-container') || evt.target.classList.contains('menu')) {
       this.close()
      };
   }
