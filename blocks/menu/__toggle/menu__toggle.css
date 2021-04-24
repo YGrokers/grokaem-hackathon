@@ -15,7 +15,7 @@
     top: 0;
     transform: rotate(90deg);
   }
-  .menu__toggle:checked ~ .menu {
+  .menu__toggle:checked ~ .menu__container {
     visibility: visible;
     right: 0;
   }

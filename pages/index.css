@@ -7,6 +7,7 @@
 @import url("../blocks/page/__header/page__header.css");
 @import url("../blocks/header/header.css");
 
+@import url("../blocks/menu/__container/menu__container.css");
 @import url("../blocks/menu/menu.css");
 @import url("../blocks/menu/__link/menu__link.css");
 @import url("../blocks/menu/__link/_active/menu__link_active.css");

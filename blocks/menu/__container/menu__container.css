@@ -1,0 +1,19 @@
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#fff;
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .menu__container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    visibility: hidden;
+    top:0;
+    right: -100%;
+    transition-duration: .5s;
+  }
+}
