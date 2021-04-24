@@ -1,9 +1,9 @@
-.faq__dropdown-cell_active .faq__dropdown-icon {
+.dropdown__cell_active .dropdown__icon {
   transform: rotate(180deg);
   transition: transform .5s ease;
 }
 
-.faq__dropdown-cell_active .faq__dropdown-text {
+.dropdown__cell_active .dropdown__text {
   display: block;
   transition: growDown 5s ease;
 }

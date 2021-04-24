@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 125px 0;
+  background-color: #F6F6F6;
 }
 
 @media screen and (max-width: 415px) {

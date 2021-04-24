@@ -1,3 +1,8 @@
 .project__image {
-  max-width: 950px;
+  max-width: 100%
+}
+
+.project__image:hover {
+  opacity: .6;
+  transition: opacity .2s linear 0s;
 }

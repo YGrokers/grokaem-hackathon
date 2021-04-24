@@ -1,10 +1,11 @@
 export default class Dropdown {
-  constructor(dropdownSelector) {
+  constructor({dropdownSelector, activeSelector}) {
     this._dropdownList = Array.from(document.querySelectorAll(dropdownSelector));
+    this._dropdownActive = activeSelector;
   }
 
   _toggle(dropdownCell) {
-    dropdownCell.classList.toggle("faq__dropdown-cell_active");
+    dropdownCell.classList.toggle(this._dropdownActive);
   }
 
   setEventListeners() {
