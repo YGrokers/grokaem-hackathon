@@ -1,4 +1,4 @@
-.dropdown__cell_active .dropdown__icon {
+.dropdown__cell_active .dropdown__title::after {
   transform: rotate(180deg);
   transition: transform .5s ease;
 }
